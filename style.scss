@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.father-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cardOne {
+  display: flex;
+  width: 270px;
+  height: 450px;
+  padding: 15px;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+.blockIcon {
+  display: flex;
+  width: 200px;
+  height: 80px;
+  margin: 5px;
+  align-items: center;
+
+}
+.blockTitle {
+  display: flex;
+  width: 200px;
+  height: 40px;
+  margin: 20px;
+  align-items: center;
+  color: hsl(0, 0%, 95%);
+}
+.blockDescription {
+  display: flex;
+  width: 200px;
+  line-height: 27px;
+  font-size: 15px;
+  align-items: center;
+  font-family: "BigShoulders", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.blockBtn {
+  display: flex;
+  width: 200px;
+  margin: 20px;
+  margin-top: auto;
+}
+.btn {
+  display: flex;
+  width: 140px;
+  height: 44px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: solid 2px hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
+}
+.btnTwo{
+  display: flex;
+  width: 140px;
+  height: 44px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: solid 2px hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
+}
+.btnThre{
+  display: flex;
+  width: 140px;
+  height: 44px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: solid 2px hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
+}
+.sedans {
+  text-decoration: none;
+  color: hsl(31, 77%, 52%);
+  font-family: "BigShoulders", sans-serif;
+}
+.suvs{
+  text-decoration: none;
+  color: hsl(184, 100%, 22%);
+  font-family: "BigShoulders", sans-serif;
+}
+.luxury{
+  text-decoration: none;
+  color: hsl(179, 100%, 13%);
+  font-family: "BigShoulders", sans-serif;
+}
+.cardTwo {
+  display: flex;
+  padding: 15px;
+  width: 270px;
+  height: 450px;
+  background-color: hsl(184, 100%, 22%);
+  border-radius: 5px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+.cardThre {
+  display: flex;
+  padding: 15px;
+  width: 270px;
+  height: 450px;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 5px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300px;
+  font-size: 16px;
+}
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300px;
+}
+.btn:hover{
+  transition:  0.5s;
+  transform: scale(1.1);
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 94%);
+  border: solid 2px hsl(0, 0%, 95%);
+  .sedans{
+    color: hsl(0, 0%, 95%);
+    transform: scale(1.1);
+  }
+}
+.btnTwo:hover{
+  transition:  0.5s;
+  transform: scale(1.1);
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 94%);
+  border: solid 2px hsl(0, 0%, 95%);
+  .suvs{
+    color: hsl(0, 0%, 95%);
+    transform: scale(1.1);
+  }
+}
+.btnThre:hover{
+  transition:  0.5s;
+  transform: scale(1.1);
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 94%);
+  border: solid 2px hsl(0, 0%, 95%);
+  .luxury{
+    color: hsl(0, 0%, 95%);
+    transform: scale(1.1);
+  }
+}
