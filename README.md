@@ -21,7 +21,7 @@ Los usuarios deben ser capaces de:
 ### Links
 
 
-- URL del sitio: [Add live site URL here](https://guill-mh.github.io/previewColumnCard/)
+- URL del sitio: [Add live site URL here](https://guillmh.github.io/previewColumnCard/)
 
 
 ### Construido con
